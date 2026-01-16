@@ -7,12 +7,12 @@ app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
 # Admin credentials
-ADMIN_USERNAME = "sagar"
-ADMIN_PASSWORD = "00"
+ADMIN_USERNAME = "1"
+ADMIN_PASSWORD = "1"
 
 # JSONBin Config
-JSONBIN_API_KEY = "$2a$10$1hGEnwMBNYMxDDpusWcYwuD/BD4GDq9oyvg/1DdqhkuubiuEanqgq"
-BIN_ID = "6857a2818960c979a5aee560"
+JSONBIN_API_KEY = "$2a$10$VL5QI8aNtxUYX2XwIbIM6u2kSLf25XyBK6S7acj2ZHDvYNDwAEQY6"
+BIN_ID = "696a29ced0ea881f406fdf2b"
 
 HEADERS = {
     "Content-Type": "application/json",
